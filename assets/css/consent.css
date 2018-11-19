@@ -1,0 +1,79 @@
+.main-menu {
+    display: none;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    cursor: url(../../images/pointer.png), pointer;
+    font-family: 'CharriotDeluxe';
+	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	user-select: none;
+    background: #03a9f4;
+}
+
+#consent-form, #information-sheet {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Titillium Web'
+}
+
+.university-logo {
+    margin-top: 20px;
+    opacity: 0.4;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+ol li {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.information-sub-list li {
+    margin-bottom: 0px;
+}
+
+ol li span {
+    font-weight: bold;
+}
+
+.accept-consent-container {
+    width: 100%;
+    text-align: center;
+}
+
+.accept-consent-button {
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+    transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.accept-consent-button:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}

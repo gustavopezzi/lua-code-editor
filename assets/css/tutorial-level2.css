@@ -1,0 +1,85 @@
+body {
+    background-size: auto;
+    background-position: 60px top;
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+#whiteboard-left {
+    position: absolute;
+    display: inline-block;
+    width: 260px;
+    height: 165px;
+    background: transparent;
+    top: 15px;
+    left: 195px;
+    text-align: center;
+}
+
+#whiteboard-right {
+    position: absolute;
+    display: inline-block;
+    width: 260px;
+    height: 165px;
+    background: transparent;
+    top: 15px;
+    left: 532px;
+    text-align: center;
+}
+
+.floor-tutorial {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 415px;
+    z-index: 1;
+    background: #311b00;
+    overflow: hidden;
+}
+
+.character-container {
+    position: absolute;
+    text-align: left;
+    display: block;
+    top: 25%;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+    animation: character-move;
+    animation-duration: 0.6s;
+}
+
+#character-dev {
+    width: 600px;
+}
+
+#dialog-bubble {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+    padding: 30px 30px;
+    background: #f9f2ba;
+	/* border-radius: 10px; */
+    margin-left: 630px;
+    text-align: left;
+}
+
+#dialog-bubble:after {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 30px;
+    width: 0;
+    height: 0;
+    border-top: 37px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 37px solid #f9f2ba;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+@keyframes character-move {
+    from { left: -200px; }
+    to { left: 0px; }
+}

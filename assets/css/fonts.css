@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+@font-face {
+    font-family: 'CharriotDeluxe';
+    src: url('../fonts/charriot.eot');
+    src: url('../fonts/charriot.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/charriot.woff') format('woff'),
+         url('../fonts/charriot.ttf') format('truetype');
+}
